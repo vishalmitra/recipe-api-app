@@ -1,6 +1,6 @@
 FROM alpine:3.17
 
-LABEL maintainer="hyderbadappdeveloper.com"
+LABEL maintainer="londonappdevloper.com"
 
 
 ENV PYTHONUNBUFFERED 1
@@ -19,6 +19,6 @@ RUN python -m venv /py && \
         --no-create-home \
         django-user
 
-ENV PATH="/py/bin:$PATH"
+ENV PATH="C:\Users\visha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10:$PATH"
 
 USER django-user
